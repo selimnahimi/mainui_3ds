@@ -59,6 +59,7 @@ SRCS := \
 	font/StbFont.cpp                 \
 	font/BitmapFont.cpp	             \
 	miniutl/utlmemory.cpp            \
+	miniutl/generichash.cpp          \
 	unicode_strtools.cpp             \
 	EventSystem.cpp                  \
 	BaseMenu.cpp                     \
