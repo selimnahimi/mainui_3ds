@@ -78,7 +78,7 @@ LIBS = -lc -lm -lstdc++
 
 
 INCLUDES = -I. -I../common -I../pm_shared -I../engine -I../engine/common -I../utils/vgui/include -Imenus -Icontrols -Ifont -Iminiutl -Imodel
-DEFINES = -D_3DS -DMAINUI_USE_CUSTOM_FONT_RENDER -DNO_STL -DMAINUI_FONT_SCALE
+DEFINES = -D__3DS__ -DMAINUI_USE_CUSTOM_FONT_RENDER -DNO_STL -DMAINUI_FONT_SCALE
 CFLAGS =  -march=armv6k -mtune=mpcore -mfloat-abi=hard -mtp=soft -O2 -Wl,-q -Wfatal-errors -Wno-write-strings -fsigned-char -fno-short-enums  $(DEFINES) $(INCLUDES)
 CXXFLAGS = $(CFLAGS) -std=gnu++11 -fno-rtti -fno-exceptions -static-libstdc++ -static-libgcc
 ASFLAGS = $(CFLAGS)

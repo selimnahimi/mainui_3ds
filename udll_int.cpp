@@ -81,7 +81,7 @@ extern "C" EXPORT int GiveTextAPI( ui_textfuncs_t* pTextfuncsFromEngine )
 }
 #endif
 
-#ifdef _3DS
+#ifdef __3DS__
 
 //===============================
 // exports for 3ds dlsym()
